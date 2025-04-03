@@ -1,6 +1,6 @@
 export default function Section7() {
     return (
-      <section className="text-center p-8 bg-gray-100">
+      <section className="text-center p-8 bg-white">
         <h2 className="text-3xl font-bold text-black">Are you a Seller?</h2>
         <p className="text-gray-700 mt-2">Use QuickIt for Business for customer deliveries in your city</p>
   
