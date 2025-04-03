@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 export default function Section1() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center gap-30 px-5 md:px-16 py-10 bg-white">
+    <section className="flex flex-col md:flex-row items-center justify-center px-5 md:px-[200px] py-10 bg-white gap-x-[40px] text-center md:text-left">
       {/* Left Side: Text Content */}
-      <div className="max-w-lg text-center md:text-left">
+      <div className="max-w-lg flex-1 min-w-[40px]">
         <h1 className="text-3xl md:text-4xl font-bold text-black leading-tight">
           Reliable <br /> Delivery, Every Time!
         </h1>
@@ -20,13 +20,13 @@ export default function Section1() {
       </div>
 
       {/* Right Side: Image */}
-      <div className="mt-6 md:mt-0">
+      <div className="flex-1 min-w-[40px] flex justify-center mt-6 md:mt-0">
         <Image
-          src="/delgirl.png" // Make sure the image is in the "public" folder
+          src="/delgirl.png" // Ensure the image is in the "public" folder
           alt="Delivery Woman"
-          width={300} // Adjust size as needed
+          width={300} 
           height={300}
-          className="rounded-lg shadow-md"
+          className="rounded-lg shadow-md max-w-full"
         />
       </div>
     </section>
