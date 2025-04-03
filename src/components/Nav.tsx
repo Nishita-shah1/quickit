@@ -48,7 +48,7 @@ export default function Nav() {
   return (
     <nav className="w-full py-4 bg-white bg-opacity-90 backdrop-blur-sm fixed top-0 left-0 z-50 shadow-md">
       {/* Desktop Navigation */}
-      <div className="hidden md:flex justify-between items-center px-10">
+      <div className="hidden lg:flex justify-between items-center px-10">
         {/* Logo only (no text) */}
         <div className="flex items-center">
           <img src="/logo.png" alt="QuickIt Logo" className="h-10 w-auto" />
@@ -87,7 +87,7 @@ export default function Nav() {
       </div>
 
       {/* Mobile Navigation */}
-      <div className="flex md:hidden justify-between items-center px-4">
+      <div className="flex lg:hidden justify-between items-center px-4">
         {/* Logo only */}
         <div className="flex items-center">
           <img src="/logo.png" alt="QuickIt Logo" className="h-8 w-auto" />
