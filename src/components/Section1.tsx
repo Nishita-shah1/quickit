@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Section1() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-10 bg-white">
+    <section className="flex flex-col md:flex-row items-center justify-center gap-30 px-5 md:px-16 py-10 bg-white">
       {/* Left Side: Text Content */}
       <div className="max-w-lg text-center md:text-left">
         <h1 className="text-3xl md:text-4xl font-bold text-black leading-tight">
@@ -22,7 +22,7 @@ export default function Section1() {
       {/* Right Side: Image */}
       <div className="mt-6 md:mt-0">
         <Image
-          src="/image.png" // Make sure the image is in the "public" folder
+          src="/delgirl.png" // Make sure the image is in the "public" folder
           alt="Delivery Woman"
           width={300} // Adjust size as needed
           height={300}

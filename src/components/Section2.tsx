@@ -3,12 +3,12 @@
 import Image from 'next/image';
 
 const benefits = [
-  { title: "Proof of Delivery", image: "/proof-of-delivery.png" },
-  { title: "Transparent Pricing", image: "/transparent-pricing.png" },
-  { title: "Order Scheduling", image: "/order-scheduling.png" },
-  { title: "Multi-Drop Shipments", image: "/multi-drop-shipments.png" },
-  { title: "24×7 Support", image: "/24x7-support.png" },
-  { title: "Live Tracking", image: "/live-tracking.png" },
+  { title: "Proof of Delivery", image: "/pod.png" },
+  { title: "Transparent Pricing", image: "/tp.png" },
+  { title: "Order Scheduling", image: "/os.png" },
+  { title: "Multi-Drop Shipments", image: "/multi.png" },
+  { title: "24×7 Support", image: "/support.png" },
+  { title: "Live Tracking", image: "/track.png" },
 ];
 
 export default function Section2() {
@@ -27,8 +27,8 @@ export default function Section2() {
             <Image
               src={benefit.image}
               alt={benefit.title}
-              width={80}
-              height={80}
+              width={100}
+              height={100}
               className="mb-2"
             />
             <p className="text-black font-medium">{benefit.title}</p>
