@@ -13,7 +13,7 @@ const benefits = [
 
 export default function Section2() {
   return (
-    <section className="text-center py-12 bg-white">
+    <section className="text-center py-12 bg-gray-100 px-5 md:px-[200px]">
       {/* Heading */}
       <h2 className="text-3xl font-bold text-black">Benefits of using QuickIt</h2>
       <p className="text-gray-600 mt-2">
@@ -21,7 +21,7 @@ export default function Section2() {
       </p>
 
       {/* Benefits Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-8 px-4 md:px-16">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-12 mt-8">
         {benefits.map((benefit, index) => (
           <div key={index} className="flex flex-col items-center">
             <Image
@@ -29,7 +29,7 @@ export default function Section2() {
               alt={benefit.title}
               width={100}
               height={100}
-              className="mb-2"
+              className="mb-2 max-w-full"
             />
             <p className="text-black font-medium">{benefit.title}</p>
           </div>
