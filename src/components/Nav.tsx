@@ -10,11 +10,10 @@ type NavItem = {
 };
 
 const navItems: NavItem[] = [
-  { name: 'About me', href: '#hero' },
-  { name: 'Experience', href: '#experience' },
-  { name: 'My work', href: '#skills' },
-  { name: 'Skills', href: '#skillset' },
-  { name: 'Contact me', href: '#contact' },
+  { name: 'About Us', href: '#hero' },
+  { name: 'Pricing', href: '#experience' },
+  { name: 'Delivery & Orders', href: '#skills' },
+  { name: 'Contact Us', href: '#contact' },
 ];
 
 export default function Nav() {
