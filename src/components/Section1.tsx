@@ -20,7 +20,7 @@ export default function Section1() {
       </div>
 
       {/* Right Side: Image */}
-      <div className="flex-1 min-w-[40px] flex justify-center mt-6 md:mt-0">
+      <div className="flex-1  flex justify-end mt-6 md:mt-0">
         <Image
           src="/delgirl.png" // Ensure the image is in the "public" folder
           alt="Delivery Woman"
